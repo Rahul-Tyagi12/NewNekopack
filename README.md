@@ -5,7 +5,7 @@ This is just heroku support source
 Main source is here [main source](https://github.com/Rahul-Tyagi12/NewCatuserabot) fork and give star to that repo 
 
 ## Deploy
-[![Deploy To Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Rahul-Tyagi12/NewCatuserabot)
+[![Deploy To Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Rahul-Tyagi12/NewNekopack)
 
 ## credits
    - [@midnightmadwalk](https://t.me/midnightmadwalk)
