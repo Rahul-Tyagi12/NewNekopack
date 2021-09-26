@@ -5,10 +5,10 @@ _get_ziplink () {
     regex='(https?)://github.com/.+/.+'
     if [[ $UPSTREAM_REPO == "goodcat" ]]
     then
-        echo "aHR0cHM6Ly9naXRodWIuY29tL1JhaHVsLVR5YWdpMTIvTmV3Q2F0dXNlcmFib3QvYXJjaGl2ZS9yZWZzL2hlYWRzL21hc3Rlci56aXA=" | base64 -d
+        echo "aHR0cHM6Ly9naXRodWIuY29tL1JhaHVsLVR5YWdpMTIvTmV3Q2F0dXNlcmFib3QvYXJjaGl2ZS9tYXN0ZXIuemlw" | base64 -d
     elif [[ $UPSTREAM_REPO == "badcat" ]]
     then
-        echo "aHR0cHM6Ly9naXRodWIuY29tL1JhaHVsLVR5YWdpMTIvTmV3Q2F0dXNlcmFib3QvYXJjaGl2ZS9yZWZzL2hlYWRzL21hc3Rlci56aXA=" | base64 -d
+        echo "aHR0cHM6Ly9naXRodWIuY29tL1JhaHVsLVR5YWdpMTIvTmV3Q2F0dXNlcmFib3QvYXJjaGl2ZS9tYXN0ZXIuemlw" | base64 -d
     elif [[ $UPSTREAM_REPO =~ $regex ]]
     then
         if [[ $UPSTREAM_REPO_BRANCH ]]
@@ -18,7 +18,7 @@ _get_ziplink () {
             echo "${UPSTREAM_REPO}/archive/master.zip"
         fi
     else
-        echo "aHR0cHM6Ly9naXRodWIuY29tL1JhaHVsLVR5YWdpMTIvTmV3Q2F0dXNlcmFib3QvYXJjaGl2ZS9yZWZzL2hlYWRzL21hc3Rlci56aXA=" | base64 -d
+        echo "aHR0cHM6Ly9naXRodWIuY29tL1JhaHVsLVR5YWdpMTIvTmV3Q2F0dXNlcmFib3QvYXJjaGl2ZS9tYXN0ZXIuemlw" | base64 -d
     fi
 }
 
